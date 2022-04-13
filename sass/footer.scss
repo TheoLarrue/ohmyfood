@@ -1,0 +1,40 @@
+footer {
+  background-color: $greyText;
+  display: flex;
+  flex-direction: column;
+  height: 250px;
+  padding: 5%;
+
+  h1 {
+    color: white;
+    font-size: 25px;
+  }
+
+  a {
+    color: white;
+    font-size: 20px;
+    transition: ease-in-out 0.1s;
+
+    &:hover {
+      transform: scale(1.02);
+      transition: ease-in-out 0.2s;
+    }
+
+    i {
+      width: 7%;
+    }
+  }
+
+  .footerTitle {
+    height: 25%;
+    display: flex;
+    align-items: center;
+  }
+
+  .navFooter {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 75%;
+  }
+}

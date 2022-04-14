@@ -18,6 +18,7 @@ $text: "Roboto", sans-serif;
 /* Import */
 
 @import "reset.scss";
+@import "mixins.scss";
 @import "header.scss";
 @import "footer.scss";
 @import "home.scss";
@@ -31,7 +32,7 @@ body {
 }
 
 p {
-  font-size: 20px;
+  font-size: 4vw;
   color: $greyText;
 }
 
@@ -40,12 +41,12 @@ h1 {
 }
 
 h2 {
-  font-size: 30px;
+  font-size: 8vw;
   font-weight: bold;
 }
 
 h3 {
-  font-size: 25px;
+  font-size: 6vw;
 }
 
 a {

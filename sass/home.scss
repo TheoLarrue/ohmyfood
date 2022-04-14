@@ -38,8 +38,8 @@
   height: 70px;
   border-radius: 40px;
   cursor: pointer;
-  box-shadow: 0px 5px 5px #c2c2c2;
   transition: ease-in-out 0.1s;
+  @include shadow;
 
   &:hover {
     transform: scale(1.05);
@@ -65,12 +65,12 @@
     align-items: center;
     background-color: $grey;
     border-radius: 20px;
-    box-shadow: 0px 4px 4px #c2c2c2;
     width: 80%;
     height: 75px;
     position: relative;
     cursor: pointer;
     transition: ease-in-out 0.1s;
+    @include shadow;
 
     &:hover {
       transform: scale(1.05);
@@ -102,7 +102,7 @@
 
     .foncIcon {
       color: $greyText;
-      font-size: 25px;
+      font-size: 6vw;
     }
 
     .foncText {
@@ -114,7 +114,7 @@
 
       p {
         color: black;
-        font-size: 18px;
+        font-size: 4vw;
       }
     }
   }
@@ -123,7 +123,7 @@
 .restaurants {
   display: flex;
   flex-direction: column;
-  height: 1500px;
+  height: 1100px;
   background-color: $grey;
   padding: 10%;
 
@@ -149,11 +149,11 @@
     border-radius: 15px;
     overflow: hidden;
     background-color: white;
-    box-shadow: 0px 4px 4px #c2c2c2;
     transition: ease-in-out 0.1s;
+    @include shadow;
 
     &:hover {
-      transform: scale(1.02);
+      transform: scale(1.01);
       transition: ease-in-out 0.2s;
     }
   }
@@ -176,6 +176,7 @@
 
     p {
       color: rgb(47, 133, 103);
+      font-size: 4vw;
     }
   }
 
@@ -225,8 +226,14 @@
     align-items: center;
     width: 20%;
 
-    i {
-      font-size: 30px;
+    .far {
+      font-size: 7vw;
+      background: white;
+    }
+
+    .fas {
+      font-size: 7.3vw;
+      @include heartBack;
     }
   }
 }

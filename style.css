@@ -92,6 +92,27 @@ header {
   display: flex;
   justify-content: center;
   align-items: center;
+  position: relative;
+}
+.mainTitle .back {
+  display: flex;
+  align-items: center;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  margin-left: 5%;
+}
+.mainTitle .back a {
+  height: 100%;
+}
+.mainTitle .back i {
+  font-size: 30px;
+  color: black;
+  transition: ease-in-out 0.1s;
+}
+.mainTitle .back i:hover {
+  transform: scale(1.2);
+  transition: ease-in-out 0.2s;
 }
 .mainTitle h1 {
   font-size: 45px;
@@ -359,6 +380,10 @@ footer .navFooter {
   background: url(images/toa-heftiba-DQKerTsQwi0-unsplash.jpg) center/cover;
 }
 
+.menu4 {
+  background: url(images/louis-hansel-shotsoflouis-qNBGVyOCY8Q-unsplash.jpg) center/cover;
+}
+
 .menu {
   height: 2000px;
   width: 100%;
@@ -498,6 +523,7 @@ h3 {
 
 a {
   text-decoration: none;
+  color: rgb(53, 54, 54);
 }
 
 /*# sourceMappingURL=style.css.map */

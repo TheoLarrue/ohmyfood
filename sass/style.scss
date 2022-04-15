@@ -23,6 +23,7 @@ $text: "Roboto", sans-serif;
 @import "footer.scss";
 @import "home.scss";
 @import "menu.scss";
+@import "loader.scss";
 
 /* General Assets */
 
@@ -46,7 +47,7 @@ h2 {
 }
 
 h3 {
-  font-size: 6vw;
+  font-size: 5vw;
 }
 
 a {

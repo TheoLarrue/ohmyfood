@@ -60,7 +60,7 @@
 
       .restCard {
         width: 45%;
-        height: 45%;
+        height: 40%;
       }
     }
   }
@@ -78,16 +78,30 @@
     height: 200px;
     padding: 2%;
     justify-content: space-around;
+    align-items: center;
 
     .footerTitle {
       justify-content: center;
+      height: 50%;
     }
 
     .navFooter {
       flex-direction: row;
-      width: 90%;
+      width: 75%;
+      height: 50%;
       justify-content: space-around;
       align-items: center;
+    }
+  }
+
+  .loaderBackground {
+    width: 50vh;
+    height: 50vh;
+  }
+
+  .loaderIcon {
+    h1 {
+      font-size: 8vh;
     }
   }
 }

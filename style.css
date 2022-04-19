@@ -470,12 +470,9 @@ header {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  display: none;
-  /*
   animation: disapear 4s;
   animation-fill-mode: forwards;
   z-index: 100;
-  */
 }
 
 @keyframes disapear {
@@ -492,8 +489,8 @@ header {
   }
 }
 .loader {
-  width: 50vw;
-  height: 40vh;
+  width: 100%;
+  height: 100%;
   position: relative;
   display: flex;
   justify-content: center;
@@ -519,9 +516,11 @@ header {
 .loaderIcon {
   position: absolute;
   z-index: 2;
-  font-size: 8vw;
   color: #99e2d0;
   animation: rotateIcon 4s;
+}
+.loaderIcon h1 {
+  font-size: 8vw;
 }
 
 @keyframes rotateIcon {
@@ -756,7 +755,7 @@ a {
   }
   .restaurants .restCards .restCard {
     width: 45%;
-    height: 45%;
+    height: 40%;
   }
 
   .imgMenu {
@@ -772,15 +771,27 @@ a {
     height: 200px;
     padding: 2%;
     justify-content: space-around;
+    align-items: center;
   }
   footer .footerTitle {
     justify-content: center;
+    height: 50%;
   }
   footer .navFooter {
     flex-direction: row;
-    width: 90%;
+    width: 75%;
+    height: 50%;
     justify-content: space-around;
     align-items: center;
+  }
+
+  .loaderBackground {
+    width: 50vh;
+    height: 50vh;
+  }
+
+  .loaderIcon h1 {
+    font-size: 8vh;
   }
 }
 

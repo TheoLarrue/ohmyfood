@@ -9,9 +9,12 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  display: none;
+  /*
   animation: disapear 4s;
   animation-fill-mode: forwards;
   z-index: 100;
+  */
 }
 
 @keyframes disapear {

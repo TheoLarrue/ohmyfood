@@ -44,8 +44,8 @@
     align-items: center;
     justify-content: space-between;
 
-    h1 {
-      font-size: 7vw;
+    h2 {
+      font-family: $title;
     }
 
     .menuHeart {
@@ -54,12 +54,7 @@
       align-items: center;
       height: 100%;
 
-      .far {
-        font-size: 7vw;
-      }
-
       .fas {
-        font-size: 7.3vw;
         @include heartBack;
       }
     }
@@ -83,10 +78,9 @@
     margin-bottom: 50px;
     position: relative;
 
-    h2 {
+    h3 {
       color: $greyText;
       width: 100%;
-      font-size: 6vw;
     }
 
     &::after {
@@ -123,9 +117,8 @@
     white-space: nowrap;
     overflow: hidden;
 
-    h3 {
+    h4 {
       font-weight: bold;
-      font-size: 4vw;
       white-space: nowrap;
       overflow: hidden;
       text-overflow: ellipsis;
@@ -176,7 +169,7 @@
 
       i {
         color: white;
-        font-size: 20px;
+        font-size: 25px;
       }
     }
   }

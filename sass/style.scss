@@ -17,40 +17,12 @@ $text: "Roboto", sans-serif;
 
 /* Import */
 
-@import "reset.scss";
 @import "mixins.scss";
 @import "header.scss";
-@import "footer.scss";
 @import "home.scss";
 @import "menu.scss";
 @import "loader.scss";
-
-/* General Assets */
-
-body {
-  font-family: $text;
-  background-color: $grey;
-}
-
-p {
-  font-size: 4vw;
-  color: $greyText;
-}
-
-h1 {
-  font-family: $title;
-}
-
-h2 {
-  font-size: 8vw;
-  font-weight: bold;
-}
-
-h3 {
-  font-size: 5vw;
-}
-
-a {
-  text-decoration: none;
-  color: $greyText;
-}
+@import "footer.scss";
+@import "reset.scss";
+@import "mainStyle.scss";
+@import "desktop.scss";

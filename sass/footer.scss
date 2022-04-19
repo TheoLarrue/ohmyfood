@@ -7,14 +7,14 @@ footer {
   height: 250px;
   padding: 5%;
 
-  h1 {
+  h2 {
     color: white;
-    font-size: 6vw;
+    font-family: $title;
   }
 
   a {
     color: white;
-    font-size: 4vw;
+    font-size: 15px;
     transition: ease-in-out 0.1s;
 
     &:hover {
@@ -23,7 +23,7 @@ footer {
     }
 
     i {
-      width: 7%;
+      width: 30px;
     }
   }
 

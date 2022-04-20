@@ -36,30 +36,6 @@
   background-color: $grey;
   margin-bottom: 50px;
 
-  .menuTitle {
-    height: 5%;
-    margin-top: 30px;
-    margin-bottom: 50px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-
-    h2 {
-      font-family: $title;
-    }
-
-    .menuHeart {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      height: 100%;
-
-      .fas {
-        @include heartBack;
-      }
-    }
-  }
-
   .button {
     margin-left: auto;
     margin-right: auto;
@@ -67,31 +43,55 @@
   }
 }
 
+.menuTitle {
+  height: 5%;
+  margin-top: 30px;
+  margin-bottom: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  h2 {
+    font-family: $title;
+  }
+}
+
+.menuHeart {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+
+  .fas {
+    @include heartBack;
+  }
+}
+
 .partMenu {
   display: flex;
   flex-direction: column;
   margin-bottom: 50px;
+}
 
-  .partTitle {
-    width: 25%;
-    height: 40px;
-    margin-bottom: 50px;
-    position: relative;
+.partTitle {
+  width: 25%;
+  height: 40px;
+  margin-bottom: 50px;
+  position: relative;
 
-    h3 {
-      color: $greyText;
-      width: 100%;
-    }
+  h3 {
+    color: $greyText;
+    width: 100%;
+  }
 
-    &::after {
-      content: "";
-      background-color: $ter;
-      width: 65%;
-      height: 5px;
-      position: absolute;
-      left: 0;
-      bottom: 0;
-    }
+  &::after {
+    content: "";
+    background-color: $ter;
+    width: 65%;
+    height: 5px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
   }
 }
 
@@ -106,72 +106,71 @@
   margin-bottom: 30px;
   @include shadow;
   z-index: 2;
+}
 
-  .cardText {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    height: 100%;
-    padding-left: 5%;
-    max-width: 100%;
+.cardText {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  height: 100%;
+  padding-left: 5%;
+  max-width: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+
+  h4 {
+    font-weight: bold;
     white-space: nowrap;
     overflow: hidden;
-
-    h4 {
-      font-weight: bold;
-      white-space: nowrap;
-      overflow: hidden;
-      text-overflow: ellipsis;
-    }
-
-    p {
-      white-space: nowrap;
-      overflow: hidden;
-      text-overflow: ellipsis;
-    }
+    text-overflow: ellipsis;
   }
 
-  .cardPrice {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100%;
-    width: 40%;
-    min-width: 40%;
-    background-color: white;
-    border-radius: 15px;
-    transition: ease-in-out 0.2s;
+  p {
+    white-space: nowrap;
     overflow: hidden;
-    margin-right: -20%;
+    text-overflow: ellipsis;
+  }
+}
 
-    z-index: 1;
+.cardPrice {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 40%;
+  min-width: 40%;
+  background-color: white;
+  border-radius: 15px;
+  transition: ease-in-out 0.2s;
+  overflow: hidden;
+  margin-right: -20%;
+  z-index: 1;
+}
 
-    .price {
-      display: flex;
-      justify-content: center;
-      align-items: flex-end;
-      width: 50%;
-      height: 70%;
+.price {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  width: 50%;
+  height: 70%;
 
-      p {
-        font-weight: bold;
-      }
-    }
+  p {
+    font-weight: bold;
+  }
+}
 
-    .checker {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      background-color: $ter;
-      border-radius: 0px 15px 15px 0px;
-      width: 50%;
-      height: 100%;
+.checker {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: $ter;
+  border-radius: 0px 15px 15px 0px;
+  width: 50%;
+  height: 100%;
 
-      i {
-        color: white;
-        font-size: 25px;
-      }
-    }
+  i {
+    color: white;
+    font-size: 25px;
   }
 }
 

@@ -26,17 +26,17 @@ footer {
       width: 30px;
     }
   }
+}
 
-  .footerTitle {
-    height: 25%;
-    display: flex;
-    align-items: center;
-  }
+.footerTitle {
+  height: 25%;
+  display: flex;
+  align-items: center;
+}
 
-  .navFooter {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    height: 75%;
-  }
+.navFooter {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  height: 75%;
 }

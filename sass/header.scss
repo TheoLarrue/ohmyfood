@@ -13,36 +13,36 @@ header {
   align-items: center;
   position: relative;
 
-  .back {
-    display: flex;
-    align-items: center;
-    height: 100%;
-    position: absolute;
-    left: 0;
-    margin-left: 5%;
-
-    a {
-      height: 100%;
-    }
-
-    i {
-      font-size: 25px;
-      color: black;
-      transition: ease-in-out 0.1s;
-
-      &:hover {
-        transform: scale(1.2);
-        transition: ease-in-out 0.2s;
-      }
-    }
-  }
-
   h1 {
     color: black;
     transition: ease-in-out 0.1s;
 
     &:hover {
       transform: scale(1.05);
+      transition: ease-in-out 0.2s;
+    }
+  }
+}
+
+.back {
+  display: flex;
+  align-items: center;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  margin-left: 5%;
+
+  a {
+    height: 100%;
+  }
+
+  i {
+    font-size: 25px;
+    color: black;
+    transition: ease-in-out 0.1s;
+
+    &:hover {
+      transform: scale(1.2);
       transition: ease-in-out 0.2s;
     }
   }

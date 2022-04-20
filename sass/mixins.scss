@@ -7,7 +7,7 @@
 @mixin heartBack {
   position: absolute;
   background: -webkit-linear-gradient($sec, $prim);
-  -webkit-background-clip: text;
+  background-clip: text;
   -webkit-text-fill-color: transparent;
   opacity: 0;
   transition: ease-in-out 0.1s;

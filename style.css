@@ -18,7 +18,16 @@ header {
   align-items: center;
   position: relative;
 }
-.mainTitle .back {
+.mainTitle h1 {
+  color: black;
+  transition: ease-in-out 0.1s;
+}
+.mainTitle h1:hover {
+  transform: scale(1.05);
+  transition: ease-in-out 0.2s;
+}
+
+.back {
   display: flex;
   align-items: center;
   height: 100%;
@@ -26,24 +35,16 @@ header {
   left: 0;
   margin-left: 5%;
 }
-.mainTitle .back a {
+.back a {
   height: 100%;
 }
-.mainTitle .back i {
+.back i {
   font-size: 25px;
   color: black;
   transition: ease-in-out 0.1s;
 }
-.mainTitle .back i:hover {
+.back i:hover {
   transform: scale(1.2);
-  transition: ease-in-out 0.2s;
-}
-.mainTitle h1 {
-  color: black;
-  transition: ease-in-out 0.1s;
-}
-.mainTitle h1:hover {
-  transform: scale(1.05);
   transition: ease-in-out 0.2s;
 }
 
@@ -109,13 +110,15 @@ header {
   justify-content: space-evenly;
   background-color: white;
 }
-.fonctionnement .foncTitle {
+
+.foncTitle {
   height: 10%;
   display: flex;
   justify-content: center;
   align-items: center;
 }
-.fonctionnement .foncCards {
+
+.foncCards {
   width: 100%;
   height: 90%;
   display: flex;
@@ -123,7 +126,8 @@ header {
   align-items: center;
   justify-content: space-around;
 }
-.fonctionnement .foncCards .foncCard {
+
+.foncCard {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -136,16 +140,17 @@ header {
   transition: ease-in-out 0.1s;
   box-shadow: 0px 4px 4px #c2c2c2;
 }
-.fonctionnement .foncCards .foncCard:hover {
+.foncCard:hover {
   transform: scale(1.03);
   transition: ease-in-out 0.1s;
   background-color: rgb(245, 237, 254);
   box-shadow: 0px 5px 5px #c2c2c2;
 }
-.fonctionnement .foncCards .foncCard:hover .foncIcon {
+.foncCard:hover .foncIcon {
   color: #9356dc;
 }
-.fonctionnement .foncCards .foncCard .foncList {
+
+.foncList {
   width: 30px;
   height: 30px;
   background-color: #9356dc;
@@ -158,20 +163,22 @@ header {
   left: 0;
   transform: translateX(-15px);
 }
-.fonctionnement .foncCards .foncCard .foncList p {
+.foncList p {
   color: white;
 }
-.fonctionnement .foncCards .foncCard .foncIcon {
+
+.foncIcon {
   color: rgb(53, 54, 54);
 }
-.fonctionnement .foncCards .foncCard .foncText {
+
+.foncText {
   width: 50%;
   display: flex;
   justify-content: center;
   padding: 2%;
   text-align: center;
 }
-.fonctionnement .foncCards .foncCard .foncText h4 {
+.foncText h4 {
   color: black;
 }
 
@@ -183,19 +190,22 @@ header {
   background-color: rgb(246, 246, 246);
   padding: 10%;
 }
-.restaurants .restTitle {
+
+.restTitle {
   height: 5%;
   display: flex;
   align-items: center;
 }
-.restaurants .restCards {
+
+.restCards {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: space-around;
   height: 95%;
 }
-.restaurants .restCard {
+
+.restCard {
   height: 22%;
   display: flex;
   flex-direction: column;
@@ -206,14 +216,16 @@ header {
   transition: ease-in-out 0.1s;
   box-shadow: 0px 4px 4px #c2c2c2;
 }
-.restaurants .restCard:hover {
+.restCard:hover {
   transform: scale(1.01);
   transition: ease-in-out 0.2s;
 }
-.restaurants .cardImg {
+
+.cardImg {
   height: 65%;
 }
-.restaurants .new {
+
+.new {
   background-color: #99e2d0;
   width: auto;
   height: 25%;
@@ -225,61 +237,68 @@ header {
   margin-top: 3%;
   border-radius: 5%;
 }
-.restaurants .new h4 {
+.new p {
   color: rgb(47, 133, 103);
   padding-left: 15px;
   padding-right: 15px;
 }
-.restaurants .item1 {
+
+.item1 {
   background: url(images/jay-wennington-N_Y88TWmGwA-unsplash.jpg) center/cover;
 }
-.restaurants .item2 {
+
+.item2 {
   background: url(images/stil-u2Lp8tXIcjw-unsplash.jpg) center/cover;
 }
-.restaurants .item3 {
+
+.item3 {
   background: url(images/toa-heftiba-DQKerTsQwi0-unsplash.jpg) center/cover;
 }
-.restaurants .item3 .new {
+.item3 .new {
   display: none;
 }
-.restaurants .item4 {
+
+.item4 {
   background: url(images/louis-hansel-shotsoflouis-qNBGVyOCY8Q-unsplash.jpg) center/cover;
 }
-.restaurants .item4 .new {
+.item4 .new {
   display: none;
 }
-.restaurants .cardBottom {
+
+.cardBottom {
   display: flex;
   height: 35%;
 }
-.restaurants .cardText {
+
+.cardText {
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
   width: 80%;
 }
-.restaurants .cardText h3,
-.restaurants .cardText p {
+.cardText h3,
+.cardText p {
   margin-left: 5%;
 }
-.restaurants .cardHeart {
+
+.cardHeart {
   display: flex;
   justify-content: center;
   align-items: center;
   width: 20%;
 }
-.restaurants .cardHeart .far {
+.cardHeart .far {
   background: white;
 }
-.restaurants .cardHeart .fas {
+.cardHeart .fas {
   position: absolute;
   background: -webkit-linear-gradient(#ff79da, #9356dc);
-  -webkit-background-clip: text;
+  background-clip: text;
   -webkit-text-fill-color: transparent;
   opacity: 0;
   transition: ease-in-out 0.1s;
 }
-.restaurants .cardHeart .fas:hover {
+.cardHeart .fas:hover {
   opacity: 1;
   transition: ease-in-out 0.2s;
 }
@@ -319,7 +338,13 @@ header {
   background-color: rgb(246, 246, 246);
   margin-bottom: 50px;
 }
-.menu .menuTitle {
+.menu .button {
+  margin-left: auto;
+  margin-right: auto;
+  width: 75%;
+}
+
+.menuTitle {
   height: 5%;
   margin-top: 30px;
   margin-bottom: 50px;
@@ -327,31 +352,27 @@ header {
   align-items: center;
   justify-content: space-between;
 }
-.menu .menuTitle h2 {
+.menuTitle h2 {
   font-family: "Shrikhand", cursive;
 }
-.menu .menuTitle .menuHeart {
+
+.menuHeart {
   display: flex;
   justify-content: center;
   align-items: center;
   height: 100%;
 }
-.menu .menuTitle .menuHeart .fas {
+.menuHeart .fas {
   position: absolute;
   background: -webkit-linear-gradient(#ff79da, #9356dc);
-  -webkit-background-clip: text;
+  background-clip: text;
   -webkit-text-fill-color: transparent;
   opacity: 0;
   transition: ease-in-out 0.1s;
 }
-.menu .menuTitle .menuHeart .fas:hover {
+.menuHeart .fas:hover {
   opacity: 1;
   transition: ease-in-out 0.2s;
-}
-.menu .button {
-  margin-left: auto;
-  margin-right: auto;
-  width: 75%;
 }
 
 .partMenu {
@@ -359,17 +380,18 @@ header {
   flex-direction: column;
   margin-bottom: 50px;
 }
-.partMenu .partTitle {
+
+.partTitle {
   width: 25%;
   height: 40px;
   margin-bottom: 50px;
   position: relative;
 }
-.partMenu .partTitle h3 {
+.partTitle h3 {
   color: rgb(53, 54, 54);
   width: 100%;
 }
-.partMenu .partTitle::after {
+.partTitle::after {
   content: "";
   background-color: #99e2d0;
   width: 65%;
@@ -391,7 +413,8 @@ header {
   box-shadow: 0px 4px 4px #c2c2c2;
   z-index: 2;
 }
-.cardMenu .cardText {
+
+.cardText {
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
@@ -401,18 +424,19 @@ header {
   white-space: nowrap;
   overflow: hidden;
 }
-.cardMenu .cardText h4 {
+.cardText h4 {
   font-weight: bold;
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
 }
-.cardMenu .cardText p {
+.cardText p {
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
 }
-.cardMenu .cardPrice {
+
+.cardPrice {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -426,17 +450,19 @@ header {
   margin-right: -20%;
   z-index: 1;
 }
-.cardMenu .cardPrice .price {
+
+.price {
   display: flex;
   justify-content: center;
   align-items: flex-end;
   width: 50%;
   height: 70%;
 }
-.cardMenu .cardPrice .price p {
+.price p {
   font-weight: bold;
 }
-.cardMenu .cardPrice .checker {
+
+.checker {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -445,7 +471,7 @@ header {
   width: 50%;
   height: 100%;
 }
-.cardMenu .cardPrice .checker i {
+.checker i {
   color: white;
   font-size: 25px;
 }
@@ -555,12 +581,14 @@ footer a:hover {
 footer a i {
   width: 30px;
 }
-footer .footerTitle {
+
+.footerTitle {
   height: 25%;
   display: flex;
   align-items: center;
 }
-footer .navFooter {
+
+.navFooter {
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
@@ -756,6 +784,10 @@ a {
   .restaurants .restCards .restCard {
     width: 45%;
     height: 40%;
+  }
+
+  .cardImg .new {
+    height: 20%;
   }
 
   .imgMenu {

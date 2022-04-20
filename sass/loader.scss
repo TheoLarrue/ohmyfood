@@ -42,8 +42,8 @@
 .loaderBackground {
   background: linear-gradient(160deg, $sec, $prim);
   border-radius: 100%;
-  width: 50vw;
-  height: 50vw;
+  width: 200px;
+  height: 200px;
   animation: rotateBackGround 4s;
 }
 
@@ -63,7 +63,7 @@
   animation: rotateIcon 4s;
 
   h1 {
-    font-size: 8vw;
+    font-size: 35px;
   }
 }
 

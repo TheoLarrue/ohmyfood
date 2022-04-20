@@ -106,29 +106,29 @@
   margin-bottom: 30px;
   @include shadow;
   z-index: 2;
-}
 
-.cardText {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-evenly;
-  height: 100%;
-  padding-left: 5%;
-  max-width: 100%;
-  white-space: nowrap;
-  overflow: hidden;
-
-  h4 {
-    font-weight: bold;
+  .cardText {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 100%;
+    padding-left: 5%;
+    max-width: 100%;
     white-space: nowrap;
     overflow: hidden;
-    text-overflow: ellipsis;
-  }
 
-  p {
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
+    h4 {
+      font-weight: bold;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+
+    p {
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
   }
 }
 

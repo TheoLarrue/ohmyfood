@@ -1,0 +1,53 @@
+@media only screen and (min-width: 768px) {
+  h4 {
+    font-size: 20px;
+  }
+
+  p {
+    font-size: 18px;
+  }
+
+  .foncCard {
+    width: 60%;
+  }
+
+  .restaurants {
+    height: 1500px;
+  }
+
+  .restTitle {
+    justify-content: center;
+    align-items: flex-start;
+    height: 5%;
+  }
+
+  .restCard {
+    width: 65%;
+    height: 22%;
+  }
+
+  .menu {
+    padding-left: 15%;
+    padding-right: 15%;
+  }
+
+  footer {
+    height: 200px;
+    padding: 2%;
+    justify-content: space-around;
+    align-items: center;
+
+    .footerTitle {
+      justify-content: center;
+      height: 50%;
+    }
+
+    .navFooter {
+      flex-direction: row;
+      width: 75%;
+      height: 50%;
+      justify-content: space-around;
+      align-items: center;
+    }
+  }
+}

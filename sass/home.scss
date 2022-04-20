@@ -233,17 +233,17 @@
 .cardBottom {
   display: flex;
   height: 35%;
-}
 
-.cardText {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-evenly;
-  width: 80%;
+  .cardText {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 80%;
 
-  h3,
-  p {
-    margin-left: 5%;
+    h3,
+    p {
+      margin-left: 5%;
+    }
   }
 }
 

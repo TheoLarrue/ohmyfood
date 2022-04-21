@@ -11,12 +11,25 @@
   -webkit-text-fill-color: transparent;
   opacity: 0;
   transition: ease-in-out 0.1s;
+
+  @media only screen and (max-width: 992px) {
+    &:active {
+      opacity: 1;
+      transition: ease-in-out 0.2s;
+    }
+  }
+  @media only screen and (min-width: 992px) {
+    &:hover {
+      opacity: 1;
+      transition: ease-in-out 0.2s;
+    }
+  }
 }
 
 @mixin colorText {
   background: -webkit-linear-gradient($sec, $prim);
   background-size: 100%;
   background-repeat: repeat;
-  -webkit-background-clip: text;
+  background-clip: text;
   -webkit-text-fill-color: transparent;
 }

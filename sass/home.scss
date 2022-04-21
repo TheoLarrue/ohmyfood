@@ -244,55 +244,9 @@
   justify-content: center;
   align-items: center;
   width: 20%;
+  position: relative;
 
-  .btn {
-    position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    cursor: pointer;
-
-    .fas {
-      @include heartBack;
-    }
-  }
-
-  #btnHeart1 {
-    display: none;
-  }
-
-  #btnHeart2 {
-    display: none;
-  }
-
-  #btnHeart3 {
-    display: none;
-  }
-
-  #btnHeart4 {
-    display: none;
-  }
-
-  #btnHeart1:checked + label > .C {
-    opacity: 1;
-  }
-
-  #btnHeart2:checked + label > .O {
-    opacity: 1;
-  }
-
-  #btnHeart3:checked + label > .D {
-    opacity: 1;
-  }
-
-  #btnHeart4:checked + label > .E {
-    opacity: 1;
-  }
-
-  .btn:hover {
-    .fas {
-      opacity: 1;
-      transition: ease-in-out 0.2s;
-    }
+  .fas {
+    @include heartBack;
   }
 }

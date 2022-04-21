@@ -231,7 +231,7 @@ header {
   background: -webkit-linear-gradient(rgb(255, 121, 218), rgb(147, 86, 220));
   background-size: 100%;
   background-repeat: repeat;
-  -webkit-background-clip: text;
+  background-clip: text;
   -webkit-text-fill-color: transparent;
   transform: scale(1.05);
   transition: ease-in-out 0.1s;
@@ -262,7 +262,7 @@ header {
   background: -webkit-linear-gradient(rgb(255, 121, 218), rgb(147, 86, 220));
   background-size: 100%;
   background-repeat: repeat;
-  -webkit-background-clip: text;
+  background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
@@ -495,15 +495,9 @@ header {
   justify-content: center;
   align-items: center;
   width: 20%;
-}
-.cardHeart .btn {
   position: relative;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  cursor: pointer;
 }
-.cardHeart .btn .fas {
+.cardHeart .fas {
   position: absolute;
   background: -webkit-linear-gradient(rgb(255, 121, 218), rgb(147, 86, 220));
   background-clip: text;
@@ -511,33 +505,17 @@ header {
   opacity: 0;
   transition: ease-in-out 0.1s;
 }
-.cardHeart #btnHeart1 {
-  display: none;
+@media only screen and (max-width: 992px) {
+  .cardHeart .fas:active {
+    opacity: 1;
+    transition: ease-in-out 0.2s;
+  }
 }
-.cardHeart #btnHeart2 {
-  display: none;
-}
-.cardHeart #btnHeart3 {
-  display: none;
-}
-.cardHeart #btnHeart4 {
-  display: none;
-}
-.cardHeart #btnHeart1:checked + label > .C {
-  opacity: 1;
-}
-.cardHeart #btnHeart2:checked + label > .O {
-  opacity: 1;
-}
-.cardHeart #btnHeart3:checked + label > .D {
-  opacity: 1;
-}
-.cardHeart #btnHeart4:checked + label > .E {
-  opacity: 1;
-}
-.cardHeart .btn:hover .fas {
-  opacity: 1;
-  transition: ease-in-out 0.2s;
+@media only screen and (min-width: 992px) {
+  .cardHeart .fas:hover {
+    opacity: 1;
+    transition: ease-in-out 0.2s;
+  }
 }
 
 /* Menu */
@@ -547,19 +525,19 @@ header {
   height: 250px;
 }
 
-.menu1 {
+.C {
   background: url(images/jay-wennington-N_Y88TWmGwA-unsplash.jpg) center/cover;
 }
 
-.menu2 {
+.O {
   background: url(images/stil-u2Lp8tXIcjw-unsplash.jpg) center/cover;
 }
 
-.menu3 {
+.D {
   background: url(images/toa-heftiba-DQKerTsQwi0-unsplash.jpg) center/cover;
 }
 
-.menu4 {
+.E {
   background: url(images/louis-hansel-shotsoflouis-qNBGVyOCY8Q-unsplash.jpg) center/cover;
 }
 
@@ -601,14 +579,7 @@ header {
   width: 50px;
   cursor: pointer;
 }
-.menuHeart .btn {
-  position: relative;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  cursor: pointer;
-}
-.menuHeart .btn .fas {
+.menuHeart .fas {
   position: absolute;
   background: -webkit-linear-gradient(rgb(255, 121, 218), rgb(147, 86, 220));
   background-clip: text;
@@ -616,15 +587,17 @@ header {
   opacity: 0;
   transition: ease-in-out 0.1s;
 }
-.menuHeart #btnHeart {
-  display: none;
+@media only screen and (max-width: 992px) {
+  .menuHeart .fas:active {
+    opacity: 1;
+    transition: ease-in-out 0.2s;
+  }
 }
-.menuHeart #btnHeart:checked + label > .fas {
-  opacity: 1;
-}
-.menuHeart .btn:hover .fas {
-  opacity: 1;
-  transition: ease-in-out 0.2s;
+@media only screen and (min-width: 992px) {
+  .menuHeart .fas:hover {
+    opacity: 1;
+    transition: ease-in-out 0.2s;
+  }
 }
 
 .partMenu {

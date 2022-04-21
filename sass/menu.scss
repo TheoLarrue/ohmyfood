@@ -6,19 +6,19 @@
   height: 250px;
 }
 
-.menu1 {
+.C {
   background: url(images/jay-wennington-N_Y88TWmGwA-unsplash.jpg) center/cover;
 }
 
-.menu2 {
+.O {
   background: url(images/stil-u2Lp8tXIcjw-unsplash.jpg) center/cover;
 }
 
-.menu3 {
+.D {
   background: url(images/toa-heftiba-DQKerTsQwi0-unsplash.jpg) center/cover;
 }
 
-.menu4 {
+.E {
   background: url(images/louis-hansel-shotsoflouis-qNBGVyOCY8Q-unsplash.jpg)
     center/cover;
 }
@@ -64,31 +64,8 @@
   width: 50px;
   cursor: pointer;
 
-  .btn {
-    position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    cursor: pointer;
-
-    .fas {
-      @include heartBack;
-    }
-  }
-
-  #btnHeart {
-    display: none;
-  }
-
-  #btnHeart:checked + label > .fas {
-    opacity: 1;
-  }
-
-  .btn:hover {
-    .fas {
-      opacity: 1;
-      transition: ease-in-out 0.2s;
-    }
+  .fas {
+    @include heartBack;
   }
 }
 

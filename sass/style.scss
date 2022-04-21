@@ -5,9 +5,11 @@
 
 /* Variables */
 
-$prim: #9356dc;
-$sec: #ff79da;
-$ter: #99e2d0;
+$prim: rgb(147, 86, 220);
+$primClair: rgb(164, 105, 237);
+$sec: rgb(255, 121, 218);
+$secClair: rgb(247, 136, 216);
+$ter: rgb(153, 226, 208);
 $grey: rgb(246, 246, 246);
 $grey2: rgb(234, 234, 234);
 $greyText: rgb(53, 54, 54);
@@ -17,13 +19,13 @@ $text: "Roboto", sans-serif;
 
 /* Import */
 
+@import "reset.scss";
+@import "mainStyle.scss";
 @import "mixins.scss";
+@import "loader.scss";
 @import "header.scss";
 @import "home.scss";
 @import "menu.scss";
-@import "loader.scss";
 @import "footer.scss";
-@import "reset.scss";
-@import "mainStyle.scss";
 @import "tablette.scss";
 @import "desktop.scss";

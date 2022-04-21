@@ -13,14 +13,21 @@ header {
   align-items: center;
   position: relative;
 
-  h1 {
-    color: black;
-    transition: ease-in-out 0.1s;
+  .title {
+    padding-left: 15px;
+    padding-right: 15px;
+    text-align: center;
+    transition: ease-in-out 0.2s;
 
     &:hover {
+      @include colorText;
       transform: scale(1.05);
-      transition: ease-in-out 0.2s;
+      transition: ease-in-out 0.1s;
     }
+  }
+
+  h1 {
+    color: black;
   }
 }
 
@@ -44,6 +51,7 @@ header {
     &:hover {
       transform: scale(1.2);
       transition: ease-in-out 0.2s;
+      @include colorText;
     }
   }
 }

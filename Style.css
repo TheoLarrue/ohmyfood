@@ -871,22 +871,24 @@ footer a i {
   .fonctionnement {
     height: 200px;
   }
-  .fonctionnement .foncTitle {
+
+  .foncTitle {
     height: 30%;
   }
-  .fonctionnement .foncCards {
+
+  .foncCards {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     height: 70%;
   }
-  .fonctionnement .foncCards .foncCard {
+  .foncCards .foncCard {
     width: 25%;
   }
-  .fonctionnement .foncCards .foncCard .foncIcon {
+  .foncCards .foncCard .foncIcon {
     font-size: 1.3vw;
   }
-  .fonctionnement .foncCards .foncCard .foncText > h4 {
+  .foncCards .foncCard .foncText > h4 {
     font-size: 1.3vw;
   }
 
@@ -894,12 +896,14 @@ footer a i {
     height: 1000px;
     padding: 2%;
   }
-  .restaurants .restTitle {
+
+  .restTitle {
     justify-content: center;
     align-items: center;
     height: 10%;
   }
-  .restaurants .restCards {
+
+  .restCards {
     flex-direction: row;
     flex-wrap: wrap;
     width: 75%;
@@ -907,7 +911,7 @@ footer a i {
     margin-left: auto;
     margin-right: auto;
   }
-  .restaurants .restCards .restCard {
+  .restCards .restCard {
     width: 45%;
     height: 40%;
   }

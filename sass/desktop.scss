@@ -25,27 +25,27 @@
 
   .fonctionnement {
     height: 200px;
+  }
 
-    .foncTitle {
-      height: 30%;
-    }
+  .foncTitle {
+    height: 30%;
+  }
 
-    .foncCards {
-      display: flex;
-      flex-direction: row;
-      justify-content: space-around;
-      height: 70%;
+  .foncCards {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 70%;
 
-      .foncCard {
-        width: 25%;
+    .foncCard {
+      width: 25%;
 
-        .foncIcon {
-          font-size: 1.3vw;
-        }
+      .foncIcon {
+        font-size: 1.3vw;
+      }
 
-        .foncText > h4 {
-          font-size: 1.3vw;
-        }
+      .foncText > h4 {
+        font-size: 1.3vw;
       }
     }
   }
@@ -53,25 +53,25 @@
   .restaurants {
     height: 1000px;
     padding: 2%;
+  }
 
-    .restTitle {
-      justify-content: center;
-      align-items: center;
-      height: 10%;
-    }
+  .restTitle {
+    justify-content: center;
+    align-items: center;
+    height: 10%;
+  }
 
-    .restCards {
-      flex-direction: row;
-      flex-wrap: wrap;
-      width: 75%;
-      height: 90%;
-      margin-left: auto;
-      margin-right: auto;
+  .restCards {
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 75%;
+    height: 90%;
+    margin-left: auto;
+    margin-right: auto;
 
-      .restCard {
-        width: 45%;
-        height: 40%;
-      }
+    .restCard {
+      width: 45%;
+      height: 40%;
     }
   }
 

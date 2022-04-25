@@ -395,10 +395,10 @@ header {
 }
 
 .foncText {
-  width: 60%;
+  width: 70%;
   display: flex;
   justify-content: center;
-  padding: 10%;
+  padding: 3%;
   text-align: center;
   white-space: nowrap;
 }

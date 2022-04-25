@@ -38,6 +38,14 @@
 
       .foncCard {
         width: 25%;
+
+        .foncIcon {
+          font-size: 1.3vw;
+        }
+
+        .foncText > h4 {
+          font-size: 1.3vw;
+        }
       }
     }
   }

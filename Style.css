@@ -388,17 +388,20 @@ header {
 
 .foncIcon {
   color: rgb(53, 54, 54);
+  font-size: 4vw;
 }
 
 .foncText {
-  width: 50%;
+  width: 60%;
   display: flex;
   justify-content: center;
-  padding: 2%;
+  padding: 10%;
   text-align: center;
+  white-space: nowrap;
 }
 .foncText h4 {
   color: black;
+  font-size: 4vw;
 }
 
 /* Restaurants */
@@ -795,6 +798,12 @@ footer a i {
   .foncCard {
     width: 60%;
   }
+  .foncCard .foncIcon {
+    font-size: 2.5vw;
+  }
+  .foncCard .foncText > h4 {
+    font-size: 2.5vw;
+  }
 
   .restaurants {
     height: 1500px;
@@ -871,6 +880,12 @@ footer a i {
   .fonctionnement .foncCards .foncCard {
     width: 25%;
   }
+  .fonctionnement .foncCards .foncCard .foncIcon {
+    font-size: 1.3vw;
+  }
+  .fonctionnement .foncCards .foncCard .foncText > h4 {
+    font-size: 1.3vw;
+  }
 
   .restaurants {
     height: 1000px;
@@ -939,4 +954,4 @@ footer a i {
   }
 }
 
-/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=Style.css.map */

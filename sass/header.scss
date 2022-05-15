@@ -1,57 +1,57 @@
 /* Header */
 
 header {
-  width: 100%;
-  height: 75px;
+    width: 100%;
+    height: 75px;
 }
 
 .mainTitle {
-  width: 100%;
-  height: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  position: relative;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
 
-  .title {
-    padding-left: 15px;
-    padding-right: 15px;
-    text-align: center;
-    transition: ease-in-out 0.2s;
+    .title {
+        padding-left: 15px;
+        padding-right: 15px;
+        text-align: center;
+        transition: ease-in-out 0.2s;
 
-    &:hover {
-      @include colorText;
-      transform: scale(1.05);
-      transition: ease-in-out 0.1s;
+        &:hover {
+            @include colorText;
+            transform: scale(1.05);
+            transition: ease-in-out 0.1s;
+        }
     }
-  }
 
-  h1 {
-    color: black;
-  }
+    h1 {
+        color: black;
+    }
 }
 
 .back {
-  display: flex;
-  align-items: center;
-  height: 100%;
-  position: absolute;
-  left: 0;
-  margin-left: 5%;
-
-  a {
+    display: flex;
+    align-items: center;
     height: 100%;
-  }
+    position: absolute;
+    left: 0;
+    margin-left: 5%;
 
-  i {
-    font-size: 25px;
-    color: black;
-    transition: ease-in-out 0.1s;
-
-    &:hover {
-      transform: scale(1.2);
-      transition: ease-in-out 0.2s;
-      @include colorText;
+    a {
+        height: 100%;
     }
-  }
+
+    i {
+        font-size: 25px;
+        color: black;
+        transition: ease-in-out 0.1s;
+
+        &:hover {
+            transform: scale(1.2);
+            transition: ease-in-out 0.2s;
+            @include colorText;
+        }
+    }
 }

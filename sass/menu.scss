@@ -2,222 +2,221 @@
 /* Image du restaurant */
 
 .imgMenu {
-  width: 100%;
-  height: 250px;
+    width: 100%;
+    height: 250px;
 }
 
 .C {
-  background: url(images/jay-wennington-N_Y88TWmGwA-unsplash.jpg) center/cover;
+    background: url(images/jay-wennington-N_Y88TWmGwA-unsplash.jpg) center/cover;
 }
 
 .O {
-  background: url(images/stil-u2Lp8tXIcjw-unsplash.jpg) center/cover;
+    background: url(images/stil-u2Lp8tXIcjw-unsplash.jpg) center/cover;
 }
 
 .D {
-  background: url(images/toa-heftiba-DQKerTsQwi0-unsplash.jpg) center/cover;
+    background: url(images/toa-heftiba-DQKerTsQwi0-unsplash.jpg) center/cover;
 }
 
 .E {
-  background: url(images/louis-hansel-shotsoflouis-qNBGVyOCY8Q-unsplash.jpg)
-    center/cover;
+    background: url(images/louis-hansel-shotsoflouis-qNBGVyOCY8Q-unsplash.jpg) center/cover;
 }
 
 /* Menu */
 
 .menu {
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  border-radius: 50px 50px 0px 0px;
-  transform: translateY(-50px);
-  padding-left: 5%;
-  padding-right: 5%;
-  background-color: $grey;
-  margin-bottom: 50px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    border-radius: 50px 50px 0px 0px;
+    transform: translateY(-50px);
+    padding-left: 5%;
+    padding-right: 5%;
+    background-color: $grey;
+    margin-bottom: 50px;
 
-  .button {
-    margin-left: auto;
-    margin-right: auto;
-    width: 75%;
-  }
+    .button {
+        margin-left: auto;
+        margin-right: auto;
+        width: 75%;
+    }
 }
 
 .menuTitle {
-  height: 5%;
-  margin-top: 30px;
-  margin-bottom: 50px;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
+    height: 5%;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 
-  h2 {
-    font-family: $title;
-  }
+    h2 {
+        font-family: $title;
+    }
 }
 
 .menuHeart {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 50px;
-  width: 50px;
-  cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 50px;
+    cursor: pointer;
 
-  .fas {
-    @include heartBack;
-  }
+    .fas {
+        @include heartBack;
+    }
 }
 
 .partMenu {
-  display: flex;
-  flex-direction: column;
-  margin-bottom: 50px;
-  width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 50px;
+    width: 100%;
 }
 
 .partTitle {
-  width: 100%;
-  height: 40px;
-  margin-bottom: 50px;
-  position: relative;
-
-  h3 {
-    color: $greyText;
     width: 100%;
-  }
+    height: 40px;
+    margin-bottom: 50px;
+    position: relative;
 
-  &::after {
-    content: "";
-    background-color: $ter;
-    width: 15%;
-    height: 5px;
-    position: absolute;
-    left: 0;
-    bottom: 0;
-  }
+    h3 {
+        color: $greyText;
+        width: 100%;
+    }
+
+    &::after {
+        content: "";
+        background-color: $ter;
+        width: 15%;
+        height: 5px;
+        position: absolute;
+        left: 0;
+        bottom: 0;
+    }
 }
 
 .cardMenu {
-  display: flex;
-  justify-content: space-between;
-  background-color: white;
-  width: 100%;
-  height: 85px;
-  border-radius: 15px;
-  overflow: hidden;
-  margin-bottom: 30px;
-  @include shadow;
-  z-index: 2;
-  cursor: pointer;
-
-  .cardText {
     display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    height: 100%;
-    padding-left: 5%;
-    max-width: 100%;
-    white-space: nowrap;
+    justify-content: space-between;
+    background-color: white;
+    width: 100%;
+    height: 85px;
+    border-radius: 15px;
     overflow: hidden;
+    margin-bottom: 30px;
+    @include shadow;
+    z-index: 2;
+    cursor: pointer;
 
-    h4 {
-      font-weight: bold;
-      white-space: nowrap;
-      overflow: hidden;
-      text-overflow: ellipsis;
-    }
+    .cardText {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        height: 100%;
+        padding-left: 5%;
+        max-width: 100%;
+        white-space: nowrap;
+        overflow: hidden;
 
-    p {
-      white-space: nowrap;
-      overflow: hidden;
-      text-overflow: ellipsis;
+        h4 {
+            font-weight: bold;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+
+        p {
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
     }
-  }
 }
 
 .cardPrice {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100%;
-  width: 40%;
-  min-width: 40%;
-  background-color: white;
-  border-radius: 15px;
-  transition: ease-in-out 0.2s;
-  overflow: hidden;
-  margin-right: -20%;
-  z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 40%;
+    min-width: 40%;
+    background-color: white;
+    border-radius: 15px;
+    transition: ease-in-out 0.2s;
+    overflow: hidden;
+    margin-right: -20%;
+    z-index: 1;
 }
 
 .price {
-  display: flex;
-  justify-content: center;
-  align-items: flex-end;
-  width: 50%;
-  height: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    width: 50%;
+    height: 70%;
 
-  p {
-    font-weight: bold;
-  }
+    p {
+        font-weight: bold;
+    }
 }
 
 .checker {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: $ter;
-  border-radius: 0px 15px 15px 0px;
-  width: 50%;
-  height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: $ter;
+    border-radius: 0px 15px 15px 0px;
+    width: 50%;
+    height: 100%;
 
-  i {
-    color: white;
-    font-size: 25px;
-  }
+    i {
+        color: white;
+        font-size: 25px;
+    }
 }
 
 .cardMenu:hover .cardPrice {
-  margin-right: -1%;
-  transition: ease-in-out 0.2s;
+    margin-right: -1%;
+    transition: ease-in-out 0.2s;
 }
 
-.cardMenu:hover .checker > i {
-  transform: rotate(360deg);
-  transition: ease-in-out 0.6s;
+.cardMenu:hover .checker>i {
+    transform: rotate(360deg);
+    transition: ease-in-out 0.6s;
 }
 
 .cardAnim {
-  animation: cardAnim 1.5s;
-  animation-fill-mode: forwards;
-  opacity: 0;
+    animation: cardAnim 1.5s;
+    animation-fill-mode: forwards;
+    opacity: 0;
 }
 
 .delay1 {
-  animation-delay: 100ms;
+    animation-delay: 100ms;
 }
 
 .delay2 {
-  animation-delay: 300ms;
+    animation-delay: 300ms;
 }
 
 .delay3 {
-  animation-delay: 500ms;
+    animation-delay: 500ms;
 }
 
 .delay4 {
-  animation-delay: 700ms;
+    animation-delay: 700ms;
 }
 
 @keyframes cardAnim {
-  0% {
-    opacity: 0;
-    transform: translateY(30px);
-  }
+    0% {
+        opacity: 0;
+        transform: translateY(30px);
+    }
 
-  100% {
-    opacity: 1;
-    transform: translateY(0);
-  }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
 }

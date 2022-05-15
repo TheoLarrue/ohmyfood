@@ -1,129 +1,129 @@
 /* Desktop Version */
 
 @media only screen and (min-width: 992px) {
-  h2 {
-    font-size: 35px;
-  }
-
-  h3 {
-    font-size: 28px;
-  }
-
-  h4 {
-    font-size: 23px;
-  }
-
-  p {
-    font-size: 18px;
-  }
-
-  .topPage {
-    .button {
-      width: 35%;
-    }
-  }
-
-  .fonctionnement {
-    height: 200px;
-  }
-
-  .foncTitle {
-    height: 30%;
-  }
-
-  .foncCards {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    height: 70%;
-
-    .foncCard {
-      width: 25%;
-
-      .foncIcon {
-        font-size: 1.3vw;
-      }
-
-      .foncText > h4 {
-        font-size: 1.3vw;
-      }
-    }
-  }
-
-  .restaurants {
-    height: 1000px;
-    padding: 2%;
-  }
-
-  .restTitle {
-    justify-content: center;
-    align-items: center;
-    height: 10%;
-  }
-
-  .restCards {
-    flex-direction: row;
-    flex-wrap: wrap;
-    width: 75%;
-    height: 90%;
-    margin-left: auto;
-    margin-right: auto;
-
-    .restCard {
-      width: 45%;
-      height: 40%;
-    }
-  }
-
-  .cardImg {
-    .new {
-      height: 20%;
-    }
-  }
-
-  .imgMenu {
-    height: 500px;
-  }
-
-  .menu {
-    padding-left: 25%;
-    padding-right: 25%;
-  }
-
-  .partTitle {
-    &::after {
-      width: 10%;
-    }
-  }
-
-  footer {
-    height: 200px;
-    padding: 2%;
-    justify-content: space-around;
-    align-items: center;
-
-    .footerTitle {
-      justify-content: center;
-      height: 50%;
+    h2 {
+        font-size: 35px;
     }
 
-    .navFooter {
-      flex-direction: row;
-      width: 75%;
-      height: 50%;
-      justify-content: space-around;
-      align-items: center;
+    h3 {
+        font-size: 28px;
     }
-  }
 
-  .loaderBackground {
-    width: 250px;
-    height: 250px;
-  }
-
-  .loaderIcon {
-    h1 {
-      font-size: 40px;
+    h4 {
+        font-size: 23px;
     }
-  }
+
+    p {
+        font-size: 18px;
+    }
+
+    .topPage {
+        .button {
+            width: 35%;
+        }
+    }
+
+    .fonctionnement {
+        height: 200px;
+    }
+
+    .foncTitle {
+        height: 30%;
+    }
+
+    .foncCards {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        height: 70%;
+
+        .foncCard {
+            width: 25%;
+
+            .foncIcon {
+                font-size: 1.3vw;
+            }
+
+            .foncText>h4 {
+                font-size: 1.3vw;
+            }
+        }
+    }
+
+    .restaurants {
+        height: 1000px;
+        padding: 2%;
+    }
+
+    .restTitle {
+        justify-content: center;
+        align-items: center;
+        height: 10%;
+    }
+
+    .restCards {
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: 75%;
+        height: 90%;
+        margin-left: auto;
+        margin-right: auto;
+
+        .restCard {
+            width: 45%;
+            height: 40%;
+        }
+    }
+
+    .cardImg {
+        .new {
+            height: 20%;
+        }
+    }
+
+    .imgMenu {
+        height: 500px;
+    }
+
+    .menu {
+        padding-left: 25%;
+        padding-right: 25%;
+    }
+
+    .partTitle {
+        &::after {
+            width: 10%;
+        }
+    }
+
+    footer {
+        height: 200px;
+        padding: 2%;
+        justify-content: space-around;
+        align-items: center;
+
+        .footerTitle {
+            justify-content: center;
+            height: 50%;
+        }
+
+        .navFooter {
+            flex-direction: row;
+            width: 75%;
+            height: 50%;
+            justify-content: space-around;
+            align-items: center;
+        }
+    }
+
+    .loaderBackground {
+        width: 250px;
+        height: 250px;
+    }
+
+    .loaderIcon {
+        h1 {
+            font-size: 40px;
+        }
+    }
 }

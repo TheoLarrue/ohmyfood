@@ -1,54 +1,54 @@
 /* General Assets */
 
 body {
-  font-family: $text;
-  background-color: $grey;
+    font-family: $text;
+    background-color: $grey;
 }
 
 h1 {
-  font-family: $title;
-  font-size: 40px;
+    font-family: $title;
+    font-size: 40px;
 }
 
 h2 {
-  font-size: 27px;
-  font-weight: bold;
+    font-size: 27px;
+    font-weight: bold;
 }
 
 h3 {
-  font-size: 23px;
+    font-size: 23px;
 }
 
 h4 {
-  font-size: 18px;
+    font-size: 18px;
 }
 
 p {
-  font-size: 15px;
-  color: $greyText;
+    font-size: 15px;
+    color: $greyText;
 }
 
 a {
-  text-decoration: none;
-  color: $greyText;
+    text-decoration: none;
+    color: $greyText;
 }
 
 .far {
-  font-size: 30px;
+    font-size: 30px;
 }
 
 .fas {
-  font-size: 32px;
+    font-size: 32px;
 }
 
 .fa-utensils,
 .fa-hands-helping,
 .fa-map-marker-alt {
-  font-size: 17px;
+    font-size: 17px;
 }
 
 .fa-mobile-android-alt,
 .fa-list,
 .fa-store {
-  font-size: 22px;
+    font-size: 22px;
 }
